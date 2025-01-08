@@ -20,6 +20,6 @@ test('fibonacci index 4 = 3', () => {
     expect(fibonacci(4)).toBe(3);
   });
 
-  test('fibonacci index 5 = 105 force a bug', () => {
-    expect(fibonacci(5)).toBe(105);
+  test('fibonacci index 5 = 5', () => {
+    expect(fibonacci(5)).toBe(5);
   });
